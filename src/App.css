@@ -1,24 +1,11 @@
-.header {
-  background-color: #f7f7f7;
-  padding: 1rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fFFFFF;
+  color: #333;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
-
-.footer {
-  background-color: #f1f1f1;
-  padding: 1rem;
-  text-align: center;
-  margin-top: 2rem;
+main {
+  padding: 2rem;
+  min-height: 80vh;
 }

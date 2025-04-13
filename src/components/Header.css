@@ -1,0 +1,40 @@
+.header {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 25px;
+  color: #5aafff;
+}
+
+.navbar h3 {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #c90b0b;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #c90b0b;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #c90b0b;
+  opacity: 60%;
+}

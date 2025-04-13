@@ -1,0 +1,49 @@
+.listing-details {
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.listing-details h1 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 1rem;
+  text-decoration: overline;
+}
+
+.listing-details img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.listing-details p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #444;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.listing-details button {
+  background-color: #ff5a5f;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.listing-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+  margin-left: 50px;
+}

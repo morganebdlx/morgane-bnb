@@ -1,10 +1,18 @@
 import React from "react";
+import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer">
-      <p>&copy; 2025 MorganeBnB. Tous droits réservés.</p>
-    </footer>
+    <div>
+    {/* Image pleine largeur avant le footer */}
+    <div className="footer-image"></div>
+
+    {/* Contenu du footer */}
+    <div className="footer">
+      <p className="big-p">HOMIES</p>
+      <p>&copy; 2025 HOMIES. Tous droits réservés.</p>
+    </div>
+    </div>
   );
 }
 

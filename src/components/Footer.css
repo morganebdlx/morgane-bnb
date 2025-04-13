@@ -1,0 +1,32 @@
+.footer {
+  background-color: #5aafff;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #c90b0b;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer p {
+  margin: 0;
+}
+
+.big-p {
+  font-size: 17rem;
+  font-weight: bold;
+  color: #c90b0b;
+}
+
+
+.footer-image {
+  background-image: url('/images/waves.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}

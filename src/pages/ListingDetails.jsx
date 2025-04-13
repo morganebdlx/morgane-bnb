@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import listings from '../listingsData';
+import './ListingDetails.css';
 
 function ListingDetails() {
   const { id } = useParams();
