@@ -8,6 +8,16 @@ function Home() {
     <div className="home">
       <Banner />
       <hr />
+      <div className="home-vintage">
+        <div className="scrolling-text">
+           Soleil - Mer - Plage - Océan - Villa - Luxe - Confort - Détente - Vacances - Évasion - Nature - Sérénité - Bien-être - Famille - Amis - Souvenirs - Bonheur - Voyage - Découverte - Aventure - Liberté - Rêve - Paradis
+        </div>
+        <div className="scrolling-text reverse">
+           Soleil - Mer - Plage - Océan - Villa - Luxe - Confort - Détente - Vacances - Évasion - Nature - Sérénité - Bien-être - Famille - Amis - Souvenirs - Bonheur - Voyage - Découverte - Aventure - Liberté - Rêve - Paradis
+        </div>
+      <img src="/images/illustration.png" alt="illustration soleil vintage" className="home-image" />
+      </div>
+      <hr />
       <div className="home-content">
         <div className="text-section">
           <h1>Bienvenue sur HOMIES</h1>
@@ -19,8 +29,8 @@ function Home() {
         <div className="banner-section">
           <SemiBanner />
         </div>
-      <hr />
       </div>
+      <hr />
     </div>
   );
 }

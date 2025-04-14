@@ -18,7 +18,7 @@ function ListingDetails() {
       <img src={listing.image} alt={listing.name} />
       <p>{listing.description}</p>
       <p><strong>{listing.price}</strong></p>
-      <button onClick={() => navigate(-1)}>← Retour</button>
+      <button onClick={() => navigate(-1)}>Retour</button>
     </div>
   );
 }

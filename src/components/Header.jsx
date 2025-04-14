@@ -10,9 +10,9 @@ function Header() {
       <img src="/images/HOMIES.png" alt="Logo Homies" className="logo" />
       </div>
         <ul>
-          <li><Link to="/">Accueil</Link></li>
-          <li><Link to="/Listings">Nos Villas</Link></li>
-          <li><Link to="/about">À propos</Link></li>
+          <li><Link to="/">HOME</Link></li>
+          <li><Link to="/Listings">VILLAS</Link></li>
+          <li><Link to="/contact">CONTACT</Link></li>
         </ul>
       </nav>
     </header>

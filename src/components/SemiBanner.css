@@ -1,7 +1,6 @@
 .semibanner {
   display: flex;
-  justify-content: left;
-  padding: 20px;
-  width: 200px;
+  justify-content: right;
+  width: auto;
   height: 350px;
 }

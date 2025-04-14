@@ -3,7 +3,7 @@
   margin: 2rem auto;
   background-color: white;
   padding: 2rem;
-  border-radius: 12px;
+  border-radius: 5px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
@@ -17,7 +17,6 @@
 .listing-details img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
   margin-bottom: 1rem;
 }
 
@@ -30,20 +29,12 @@
 }
 
 .listing-details button {
-  background-color: #ff5a5f;
-  color: white;
+  border: 2px solid #c90b0b;
+  background-color: #5aafff;
+  color: #c90b0b;
+  padding: 1rem 9rem;
   padding: 0.75rem 1.25rem;
-  border: none;
-  border-radius: 8px;
+  font-size: 1rem;
+  border-radius: 30px;
   cursor: pointer;
-}
-
-.listing-card {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  margin-bottom: 1rem;
-  margin-left: 50px;
 }
